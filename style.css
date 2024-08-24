@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+body.light{
+    background-color: rgb(244, 242, 245);
+}
+
+body.dark{
+    background-color: #090909;
+}
+
+
+.container{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.container h1{
+    color: rgb(238, 241, 234);
+}
+
+.container .change-theme-btn.light{
+    padding: 12px 20px;
+    border: none;
+    background-color: black;
+    font-size: 20px;
+    color: azure;
+    cursor: pointer;
+}
+
+.container .change-theme-btn.dark{
+    padding: 12px 20px;
+    border: none;
+    background-color: whitesmoke;
+    font-size: 20px;
+    color: rgb(15, 15, 15);
+    cursor: pointer;
+}
+
